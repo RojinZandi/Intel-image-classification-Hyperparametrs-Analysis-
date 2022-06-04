@@ -15,20 +15,29 @@ Intel image dataset contains six different files which are the labels(classes) f
 
 Finally, after comparing different implemented models in previous sections we
 have observed:
+
 • Increasing number of hidden layers can increase the efficiency of the
 model, but we must also prevent overfitting.
+
 • Decreasing and increasing learning rate may decrease the accuracy of
 the model, so it is suggested to find the best one.
+
 • Adam optimizer works better than SGD in this study.
+
 • If the validation accuracy does not follow training accuracy, you can
 increase validation split proportion.
+
 • Increasing number of epochs will increase the training accuracy.
+
 • Dropout is more suitable than L1 and L2 regularization in this neural
 network.
+
 • If during training a model, the growth of training and test accuracy is
 stopped, using a more complex model can help.
+
 • CNN models are more suggested for vision tasks, compared to MLP
 models
+
 • If the training accuracy is high, using a more complex method does not
 improve the result, but causes high overfitting.
 
