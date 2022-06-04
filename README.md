@@ -27,16 +27,12 @@ the model, so it is suggested to find the best one.
 • If the validation accuracy does not follow training accuracy, you can
 increase validation split proportion.
 
-• Increasing number of epochs will increase the training accuracy.
-
 • Dropout is more suitable than L1 and L2 regularization in this neural
 network.
 
 • If during training a model, the growth of training and test accuracy is
 stopped, using a more complex model can help.
 
-• CNN models are more suggested for vision tasks, compared to MLP
-models
 
 • If the training accuracy is high, using a more complex method does not
 improve the result, but causes high overfitting.
